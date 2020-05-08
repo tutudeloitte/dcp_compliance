@@ -1,5 +1,3 @@
-sudo systemctl status ds_agent
-
 wget 'https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/10982/download?i_agree_to_tenable_license_agreement=true' -O /tmp/nesus.rpm
 
 sudo rpm -ivh /tmp/nesus.rpm
